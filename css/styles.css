@@ -1,7 +1,7 @@
 body {
   background: #fff;
   color: #333;
-  font-family: Lato, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .container {
   display: block;
@@ -29,7 +29,7 @@ button {
   font-size: 15px;
   width: 120px;
   margin: 10px 0 0;
-  font-family: Lato, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   cursor: pointer;
 }
 button:hover {
@@ -55,7 +55,7 @@ input[type="text"] {
   border: 1px solid #ddd;
   background: #fff;
   border-radius: 6px;
-  font-family: Lato, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #888;
 }
 input[type="text"]:focus {
@@ -101,7 +101,7 @@ li >  input[type="text"] {
   border: 1px solid #ddd;
   background: #fff;
   border-radius: 6px;
-  font-family: Lato, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #888;
 }
 li > .delete:hover {
