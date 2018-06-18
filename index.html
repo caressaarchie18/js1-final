@@ -5,10 +5,50 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>ToDo App</title>
-  <!--> CSS StyleSheet<-->
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+  <div class="container">
+    <p>
+      <label for="new-task">Add Item</label>
+      <input id="new-task" type="text">
+      <button>Add Todo Item</button>
+    </p>
+    <h1>Todo</h1>
+    <ul id="incomplete-tasks">
+      <li class="editMode">
+        <input type="checkbox">
+        <label></label>
+        <input type="text" value="">
+        <button class="edit">Edit</button>
+        <button class="delete">Delete</button>
+      </li>
+      <li class="editMode">
+        <input type="checkbox">
+        <label></label>
+        <input type="text" value="">
+        <button class="edit">Edit</button>
+        <button class="delete">Delete</button>
+      </li>
+    </ul>
+    <h1>Done</h1>
+    <ul id="completed-tasks">
+        <li class="editMode">
+          <input type="checkbox" checked>
+          <label></label>
+          <input type="text" value="">
+          <button class="edit">Edit</button>
+          <button class="delete">Delete</button>
+        </li>
+        <li class="editMode">
+          <input type="checkbox" checked>
+          <label></label>
+          <input type="text" value="">
+          <button class="edit">Edit</button>
+          <button class="delete">Delete</button>
+        </li>
+      </ul>
+  </div>
 
   <script src="js/scripts.js"></script>
 </body>
