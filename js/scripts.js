@@ -9,16 +9,14 @@ var createNewTaskElement=function(taskString){
 
 	var listItem=document.createElement("li");
 
-	//input (checkbox)
-	var checkBox=document.createElement("input");//checkbx
-	//label
+	var checkBox=document.createElement("input");// input (checkbox)
+
 	var label=document.createElement("label");//label
-	//input (text)
-	var editInput=document.createElement("input");//text
-	//button.edit
+
+	var editInput=document.createElement("input");// input (text)
+
 	var editButton=document.createElement("button");//edit button
 
-	//button.delete
 	var deleteButton=document.createElement("button");//delete button
 
 	label.innerText=taskString;
@@ -93,6 +91,7 @@ var deleteTask=function(){
 		var ul=listItem.parentNode;
 		//Remove the parent list item from the ul.
 		ul.removeChild(listItem);
+		alert("This task will be deleted.");
 
 }
 
